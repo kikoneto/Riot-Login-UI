@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html,
+body {
+    background-color: gray;
+    height: 100%;
+    margin: 0%;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    position: relative;
+    background-color: white;
+    float: left;
+    width: 26%;
+    height: 100%;
+}
+
+.right-side {
+    position: relative;
+    float: right;
+    width: 74%;
+    height: 100%;
+    background-image: url('League-of-Legends-Damage.jpg');
+    background-size: 1136px 771px;
+}
+
+.riot-logo {
+    position: relative;
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.riot-logo img {
+    width: 135.78px;
+    height: 75px;
+}
+
+.login-panel {
+    position: relative;
+    text-align: center;
+    height: 40%;
+}
+
+.login-panel h1 {
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+.login-inputs form {
+    position: relative;
+    width: 100%;
+    left: 13%;
+}
+
+.login-inputs form input {
+    display: block;
+    width: 270px;
+    height: 44px;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: black;
+    opacity: 0.8;
+    border: none;
+    margin: 16px;
+    border-radius: 4px;
+}
+
+.login-inputs form input::placeholder {
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.login-inputs form input:focus {
+    border: 3px solid black;
+}
+
+.social-media {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    left: 68px;
+    width: 272px;
+    height: 30px;
+}
+
+.social-media .media {
+    position: relative;
+    width: 85px;
+    height: 25px;
+    border-radius: 5px;
+    border: 3px solid rgb(218, 217, 217);
+    align-items: center;
+}
+
+.social-media .media.facebook-logo {
+    border-color: rgb(9,97,200);
+    background-color: rgb(9, 97, 211);
+}
+
+.social-media .media.apple-logo {
+    border-color: black;
+    background-color: black;
+}
