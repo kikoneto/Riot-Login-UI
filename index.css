@@ -110,9 +110,24 @@ body {
     background-color: rgb(9, 97, 211);
 }
 
+.social-media .media.facebook-logo i{
+   color: white;
+}
+
 .social-media .media.apple-logo {
     border-color: black;
     background-color: black;
+}
+
+.social-media .media.apple-logo i{
+    position: relative;
+    top: 14%;
+    color: white;
+}
+
+.social-media .media i {
+    position: relative;
+    top: 17%;
 }
 
 .signed-in {
